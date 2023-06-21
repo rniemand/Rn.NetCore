@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32505.426
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rn.NetCore.MailUtils", "Rn.NetCore.MailUtils\Rn.NetCore.MailUtils.csproj", "{B6999236-171A-4BA4-B57B-B6659BDC6F28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{BCFFA73E-3CF5-4E24-BB71-2B7FBC99FC39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{CA378BE7-6E32-41BC-8CB0-A893B2BFFD73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevConsole", "DevConsole\DevConsole.csproj", "{2DDA50AA-D8AA-416A-A8EA-1CB07ED2BDB9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rn.NetCore.MailUtils.T1.Tests", "..\tests\Rn.NetCore.MailUtils.T1.Tests\Rn.NetCore.MailUtils.T1.Tests.csproj", "{71F80408-3057-4BC3-A8BC-E9E8D261A405}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6999236-171A-4BA4-B57B-B6659BDC6F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6999236-171A-4BA4-B57B-B6659BDC6F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6999236-171A-4BA4-B57B-B6659BDC6F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6999236-171A-4BA4-B57B-B6659BDC6F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDA50AA-D8AA-416A-A8EA-1CB07ED2BDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDA50AA-D8AA-416A-A8EA-1CB07ED2BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDA50AA-D8AA-416A-A8EA-1CB07ED2BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDA50AA-D8AA-416A-A8EA-1CB07ED2BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F80408-3057-4BC3-A8BC-E9E8D261A405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F80408-3057-4BC3-A8BC-E9E8D261A405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F80408-3057-4BC3-A8BC-E9E8D261A405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F80408-3057-4BC3-A8BC-E9E8D261A405}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B6999236-171A-4BA4-B57B-B6659BDC6F28} = {BCFFA73E-3CF5-4E24-BB71-2B7FBC99FC39}
+		{71F80408-3057-4BC3-A8BC-E9E8D261A405} = {CA378BE7-6E32-41BC-8CB0-A893B2BFFD73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD4E3C3C-E2B5-42BC-A3EF-28CFAF0C1928}
+	EndGlobalSection
+EndGlobal
