@@ -1,0 +1,14 @@
+appsettings.json
+	
+	[REMOVED] RnCore:Metrics:DevelopmentMode
+	[REMOVED] RnCore:Metrics:DevelopmentModeValue
+	[REMOVED] RnCore:Metrics:ProductionModeValue
+	[REMOVED] RnCore:Metrics:Measurements
+	[RENAME]  RnCore:Metrics:ApplicationName        => RnCore:Metrics:Application
+	[RENAME]  RnCore:Metrics:MeasurementOverrides   => RnCore:Metrics:Overrides
+	[RENAME]  RnCore:Metrics:MeasurementTemplate    => RnCore:Metrics:Template
+	[ADDED]   RnCore:Metrics:Environment
+	
+DI Changes
+	[ADDED]  MetricServiceUtils(...)
+		
