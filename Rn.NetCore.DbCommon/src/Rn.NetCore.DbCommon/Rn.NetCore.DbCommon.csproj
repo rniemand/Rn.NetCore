@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Richard Niemand</Authors>
+    <Description>Simple DB helper classes for my various projects</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Version>6.1.1.105</Version>
+	  <ProjectGuid>A0DBFBBA-FA5B-4D3E-B2EB-3EC514FAFF76</ProjectGuid>
+	  <CodeAnalysisRuleSet>..\.sonarlint\rn-netcore-dbcommoncsharp.ruleset</CodeAnalysisRuleSet>
+	  <PackageProjectUrl>https://github.com/rniemand/Rn.NetCore.DbCommon</PackageProjectUrl>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/rniemand/Rn.NetCore.DbCommon</RepositoryUrl>
+	  <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AdditionalFiles Include="..\.sonarlint\rn-netcore-dbcommon\CSharp\SonarLint.xml" Link="SonarLint.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="Rn.NetCore.Common" Version="6.1.0.101" />
+    <PackageReference Include="Rn.NetCore.Metrics" Version="6.1.0.103" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

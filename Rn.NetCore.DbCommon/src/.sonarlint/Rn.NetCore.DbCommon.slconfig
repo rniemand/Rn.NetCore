@@ -1,0 +1,12 @@
+{
+  "ServerUri": "http://192.168.0.60:9001/",
+  "Organization": null,
+  "ProjectKey": "rn-netcore-dbcommon",
+  "ProjectName": "rn-netcore-dbcommon",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AXqC5zqcvHWj8UR6w9J8",
+      "ProfileTimestamp": "2022-06-13T14:57:41Z"
+    }
+  }
+}
